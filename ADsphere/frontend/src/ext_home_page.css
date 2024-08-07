@@ -1,0 +1,140 @@
+
+.home-page-container{
+  height: 100vh;
+  width:100vw;
+  position: relative;
+}
+
+.intro-container-parent{
+  height: 87.5%;
+}
+.intro-container{
+  margin-left:calc(7.5% + 15px);
+  /* background-color:aquamarine; */
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  width:30%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-container .sub-title{
+  font-family: "Inter";
+  font-weight: 800;
+  font-size:200%;
+  text-transform: uppercase;
+  color:#555;
+  display: none;
+}
+
+.intro-container .main-title{
+  font-weight: 900;
+  font-size: 800%;
+  margin-top:-10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.intro-container .main-title span{
+  background-color: #999c33;
+  color:white;
+  padding:10px 30px;
+  margin-left: 20px;
+  padding-right: 50px;
+  border-radius: 20px;
+  font-style: italic;
+  display: inline-block;
+}
+.intro-container .intro-description{
+  font-weight: 500;
+  font-style: italic;
+  margin-top:5%;
+  position: absolute;
+  bottom: 0;
+}
+
+.picture-container{
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  /* top:0; */
+  right: 0;
+  /* right:calc(7.5% + 15px); */
+  /* transform: translateY(-45%); */
+  background-color: aquamarine;
+  /* border-radius: 15px; */
+  background: url(./ext_bg_1.jpg);
+  background-size: cover;
+  box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.users-container{
+  margin:0 calc(7.5% + 15px);
+  height: 80%;
+  position: relative;
+  overflow: hidden;
+}
+.users-container .users-head{
+  font-size: 200%;
+  font-weight: 700;
+}
+.users-head span{
+  color: #999c33;
+  font-size: 150%;
+}
+.user-cards-container{
+  display: flex;
+  flex-direction: row;
+  height: 65%;
+  position: relative;
+  align-items: center;
+  /* background-color: #4E4FEB; */
+}
+.user-card{
+  height: 90%;
+  border:1px solid black;
+  width:250px;
+  margin-right:3%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.user-card-icon{
+  color: #999c33;
+  font-size:500%;
+  margin-top:15%;
+  display: block;
+}
+.user-card-title{
+  font-weight: 600;
+  font-size: 150%;
+  margin-top:5%;
+}
+.user-card-desc{
+  font-size:80%;
+  width:80%;
+  margin:10%;
+}
+.user-card-learn-more{
+  font-weight: 700;
+  background-color: #999c33;
+  color:white;
+  padding:10px 20px;
+  cursor: pointer;
+}
+.nav-button .button-icon{
+  left:-30%;
+}
+.nav-button{
+  padding:12.5px 30px;
+}
+.nav-button:hover .button-text{
+  right:-200%;
+}

@@ -1,0 +1,142 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.associations {
+    /* box-sizing: border-box; */
+    /* height: 100%;
+    width: 100%; */
+    /* background-color: #ddd; */
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row; */
+    position: relative;
+}
+
+.mini-association-container {
+    height: 40%;
+    background: rgb(235, 235, 235, 0.2);
+    margin: 5px;
+    position: relative;
+    padding-top:1.5%;
+}
+
+
+.associates-request-div {
+    padding: 10px;
+    border-radius: 7.5px;
+    background-color: #eee;
+    width: calc(85% - 30px);
+    margin-left:calc(7.5% + 15px);
+    height: 92.5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.associates-request-details {
+    margin-left: 3.5%;
+    height: 70%;
+    width: 40%;
+    flex-grow: 1;
+}
+
+.associates-request-details div {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    /* Put this in tablet mode */
+    /* width:120px; */
+}
+
+.associates-request-title {
+    font-weight: bolder;
+    font-size: 125%;
+    position: relative;
+}
+
+.associates-request-org {
+    font-size: 90%;
+    /* margin-top: 12.5%; */
+    color: #444;
+}
+
+.associates-request-options {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.associates-request-pay,
+.view-btn {
+    margin-right: 4%;
+    border-radius: 5px;
+    background-color: rgba(196, 120, 251, 0.2);
+    padding: 7.5px 15px;
+    font-size: 85%;
+    font-weight: bolder;
+    color: #999c33;
+    white-space: nowrap;
+}
+
+.view-btn {
+    background-color: rgba(249, 252, 160, 0.3);
+    color: #999c33;
+    cursor: pointer;
+}
+.associates-request-pay-mobile{
+    position: absolute;
+    bottom:15%;
+    font-size: 80%;
+    font-weight: bolder;
+    color:#9400FF;
+    background-color: rgb(76, 76, 235, 0.1);
+    padding:5px;
+    border-radius: 5px;
+    display: none;
+}
+
+
+/* Extra  */
+@media only screen and (max-width: 1200px){
+    .associates-request-pay-mobile{
+        display: block;
+    }
+    .associates-request-pay{
+        display: none;
+    }
+}
+
+/* tablet mode */
+@media only screen and (max-width: 1000px){
+    .associates-requests-container{
+        width:92.5%;
+    }
+    .associates-request-details{
+        font-size: 90%;
+    }
+
+}
+
+/* Mobile mode */
+@media screen and (max-width: 600px) {
+    body{
+        overflow-y:auto;
+    }
+    .dashboard-container{
+        height: auto;
+        padding: 0;
+    }
+    .dashboard-container-default{
+        flex-direction: column;
+        width:100%;
+    }
+
+}

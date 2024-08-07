@@ -1,0 +1,97 @@
+.App{
+    height: 100vh;
+    width:100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+    overflow: auto;
+}
+.settings-main-div{
+    width:90%;
+    min-height: 87.5%;
+    max-width: 700px;
+    background-color: #eee;
+    border: 3px solid #ddd;
+    border-top:none;
+    border-bottom: none;
+    padding: 40px 30px;
+    position: relative;
+}
+.settings-header-div{
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.settings-option{
+    width:60%;
+    display: inline-block;
+    border-radius: 10px;
+    padding:20px 20px;
+    background-color: rgba(249, 252, 160, 0.3);
+    font-weight: bolder;
+    color:#4E4FEB;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.password-option{
+    background-color: rgba(249, 252, 160, 0.3);
+    color:#9400FF;
+}
+.settings-option .option-icon{
+    margin-right: 20px;
+    font-size: 120%;
+}
+.settings-attributes{
+    width:100%;
+    position: relative;
+    margin-left:5px;
+    border-spacing:0 10px;
+}
+.settings-attributes tr:nth-child(2n){
+    /* background-color: rgba(115, 115, 253, 0.05); */
+}
+.settings-attributes input{
+    width:80%;
+    max-width: 400px;
+    padding:10px;
+    border:none;
+    border:1px solid #ddd;
+    border-bottom: 2px solid #999c33;
+    background-color: transparent;
+    border-radius: 5px 5px 0 0;
+    margin-bottom:5px;
+}
+.save-btn{
+    margin:20px 0;
+    /* margin-bottom:20%; */
+}
+.edit-btn{
+    padding:10px 20px;
+    margin-left:2.5px;
+    color:white;
+    background-color: #999c33;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    float: right;
+    font-size: 80%;
+    cursor: pointer;
+}
+input:disabled{
+    background-color: #ddd;
+}
+
+@media screen and (max-width:700px) {
+    .settings-option{
+        width:100%;
+    }
+    .settings-attributes td{
+        display: block;
+    }
+    .label-settings{
+        font-size: 85%;
+        font-style: italic;
+    }
+}

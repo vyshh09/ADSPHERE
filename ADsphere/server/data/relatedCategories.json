@@ -1,0 +1,247 @@
+{
+    "Arts & Crafts": [
+        "Home Decor",
+        "Fashion Design & Styling",
+        "Photography & Videography"
+    ],
+    "Automotive Accessories": [
+        "Automotive Repair & Maintenance",
+        "Technology & Software",
+        "Electrical & Lighting"
+    ],
+    "Automotive Repair & Maintenance": [
+        "Automotive Accessories",
+        "Technology & Software",
+        "Industrial Supplies"
+    ],
+    "Baby & Maternity": [
+        "Children's Clothing & Apparel",
+        "Toys & Games",
+        "Health & Wellness Products"
+    ],
+    "Beauty & Personal Care": [
+        "Health & Wellness Products",
+        "Fashion Design & Styling",
+        "Healthcare & Medical Services"
+    ],
+    "Books & Literature": [
+        "Education & Learning",
+        "Education & Tutoring Services",
+        "Technology & Software"
+    ],
+    "Catering & Food Services": [
+        "Food & Beverages",
+        "Event Planning & Management",
+        "Health & Wellness Products"
+    ],
+    "Cleaning & Janitorial Services": [
+        "Home Services",
+        "Industrial Supplies",
+        "Office Supplies"
+    ],
+    "Clothing & Apparel": [
+        "Fashion Design & Styling",
+        "Jewelry & Accessories",
+        "Health & Wellness Products"
+    ],
+    "Construction & Building Materials": [
+        "Home Renovation & Remodeling",
+        "Industrial Supplies",
+        "Home Decor"
+    ],
+    "Construction & Contracting Services": [
+        "Home Renovation & Remodeling",
+        "Industrial Supplies",
+        "Home Services"
+    ],
+    "Consulting & Business Services": [
+        "Financial Planning & Advisory",
+        "Legal Services & Consulting",
+        "Marketing & Advertising"
+    ],
+    "Education & Learning": [
+        "Books & Literature",
+        "Education & Tutoring Services",
+        "Technology & Software"
+    ],
+    "Education & Tutoring Services": [
+        "Books & Literature",
+        "Education & Learning",
+        "Technology & Software"
+    ],
+    "Electrical & Lighting": [
+        "Home Decor",
+        "Technology & Software",
+        "Industrial Supplies"
+    ],
+    "Electronic Gadgets": [
+        "Technology & Software",
+        "IT & Computer Services",
+        "Home Decor"
+    ],
+    "Event Planning & Management": [
+        "Weddings & Bridal",
+        "Catering & Food Services",
+        "Music & Entertainment Services"
+    ],
+    "Event Planning & Services": [
+        "Weddings & Bridal",
+        "Catering & Food Services",
+        "Music & Entertainment Services"
+    ],
+    "Fashion Design & Styling": [
+        "Clothing & Apparel",
+        "Jewelry & Accessories",
+        "Health & Wellness Products"
+    ],
+    "Financial Planning & Advisory": [
+        "Consulting & Business Services",
+        "Legal Services & Consulting",
+        "Financial Services"
+    ],
+    "Financial Services": [
+        "Consulting & Business Services",
+        "Legal Services & Consulting",
+        "Financial Planning & Advisory"
+    ],
+    "Food & Beverages": [
+        "Catering & Food Services",
+        "Health & Wellness Products",
+        "Home Services"
+    ],
+    "Furniture & Furnishings": [
+        "Home Decor",
+        "Home Renovation & Remodeling",
+        "Industrial Supplies"
+    ],
+    "Gardening & Outdoor Living": [
+        "Home Decor",
+        "Home Renovation & Remodeling",
+        "Industrial Supplies"
+    ],
+    "Health & Wellness Products": [
+        "Beauty & Personal Care",
+        "Healthcare & Medical Services",
+        "Home Services"
+    ],
+    "Healthcare & Medical Services": [
+        "Beauty & Personal Care",
+        "Health & Wellness Products",
+        "Home Services"
+    ],
+    "Home Decor": [
+        "Furniture & Furnishings",
+        "Home Renovation & Remodeling",
+        "Industrial Supplies"
+    ],
+    "Home Renovation & Remodeling": [
+        "Construction & Building Materials",
+        "Furniture & Furnishings",
+        "Home Decor"
+    ],
+    "Home Services": [
+        "Cleaning & Janitorial Services",
+        "Construction & Contracting Services",
+        "Gardening & Outdoor Living"
+    ],
+    "Industrial Supplies": [
+        "Construction & Building Materials",
+        "Construction & Contracting Services",
+        "Home Decor"
+    ],
+    "IT & Computer Services": [
+        "Electronic Gadgets",
+        "Technology & Software",
+        "Home Decor"
+    ],
+    "Jewelry & Accessories": [
+        "Fashion Design & Styling",
+        "Clothing & Apparel",
+        "Health & Wellness Products"
+    ],
+    "Kitchen Appliances": [
+        "Home Decor",
+        "Food & Beverages",
+        "Industrial Supplies"
+    ],
+    "Legal Services & Consulting": [
+        "Consulting & Business Services",
+        "Financial Planning & Advisory",
+        "Financial Services"
+    ],
+    "Legal & Law Services": [
+        "Consulting & Business Services",
+        "Financial Planning & Advisory",
+        "Financial Services"
+    ],
+    "Marketing & Advertising": [
+        "Consulting & Business Services",
+        "Financial Planning & Advisory",
+        "Financial Services"
+    ],
+    "Music & Entertainment": [
+        "Event Planning & Management",
+        "Event Planning & Services",
+        "Technology & Software"
+    ],
+    "Music & Entertainment Services": [
+        "Event Planning & Management",
+        "Event Planning & Services",
+        "Technology & Software"
+    ],
+    "Office Supplies": [
+        "Cleaning & Janitorial Services",
+        "Home Services",
+        "Industrial Supplies"
+    ],
+    "Pet Care & Grooming Services": [
+        "Pet Supplies",
+        "Health & Wellness Products",
+        "Home Services"
+    ],
+    "Pet Supplies": [
+        "Pet Care & Grooming Services",
+        "Health & Wellness Products",
+        "Home Services"
+    ],
+    "Photography & Videography": [
+        "Arts & Crafts",
+        "Event Planning & Management",
+        "Event Planning & Services"
+    ],
+    "Real Estate & Property": [
+        "Construction & Building Materials",
+        "Construction & Contracting Services",
+        "Home Renovation & Remodeling"
+    ],
+    "Sports & Outdoors": [
+        "Health & Wellness Products",
+        "Travel & Luggage",
+        "Home Services"
+    ],
+    "Technology & Software": [
+        "IT & Computer Services",
+        "Electronic Gadgets",
+        "Home Decor"
+    ],
+    "Toys & Games": [
+        "Baby & Maternity",
+        "Children's Clothing & Apparel",
+        "Home Services"
+    ],
+    "Travel & Luggage": [
+        "Sports & Outdoors",
+        "Health & Wellness Products",
+        "Home Services"
+    ],
+    "Travel & Tourism Services": [
+        "Travel & Luggage",
+        "Event Planning & Management",
+        "Event Planning & Services"
+    ],
+    "Weddings & Bridal": [
+        "Event Planning & Management",
+        "Event Planning & Services",
+        "Beauty & Personal Care"
+    ]
+}

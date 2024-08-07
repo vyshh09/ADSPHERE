@@ -1,0 +1,83 @@
+.approved-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-top:20px;
+    width:100%;
+}
+.content-div-alt{
+    list-style-type: none;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-gap: 15px;
+    width:100%;
+    padding-left:7.5%;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:100%;
+}
+.content-div-alt li{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 0;
+    list-style-type: none;
+    position: relative;
+    height: auto;
+}
+.content-div-alt li img{
+    /* height: 90%;
+    width:90%; */
+    object-fit: cover;
+    margin-top:0;
+}
+.element-app-dec{
+    justify-content: left;
+    background-color: rgba(249, 252, 160, 0.3);
+}This gets the advertiser details of a particular ad
+.ad-detail{
+    margin: 15px;
+}
+.ad-details-alt{
+    height: 15%;
+    position: absolute;
+    bottom:10px;
+    left:50%;
+    transform: translateX(-50%);
+    width:100%;
+}
+.pay-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.pay-button{
+    background-color: #999c33;
+    color: white;
+    font-weight: bold;
+    font-size: 100%;
+    font-weight: bolder;
+    background-color: #999c33;
+    border: none;
+    color: #eee;
+    border-radius: 10px;
+    padding: 12.5px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
+}
+.pay-button:hover{
+    background-color: #999c33;
+}

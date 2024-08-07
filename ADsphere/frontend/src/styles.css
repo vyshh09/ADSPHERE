@@ -1,0 +1,320 @@
+.addque_main{
+  padding : 0;
+  background: rgba(249, 252, 160, 0.3);
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.addque {
+  /* display:flex; */
+  color: rgb(6, 6, 6);
+  position: relative;
+  max-width: 800px;
+  /*Adjust width for better layout */
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 10px;
+  padding-left: 30px;
+  background-color: rgb(250, 250, 250);
+  /* Google Form background color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  top: 30px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.que-form {
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input:disabled {
+  background-color: white;
+  border: none;
+}
+
+.display-qa,
+.display-mcq-dd {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  /* align-items: center; */
+  /* position: relative; */
+  /* overflow-y: hidden; */
+}
+
+.renderinputs {
+  /* width: 50%; */
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.render-input {
+  width: 100%;
+  /* flex-grow: 10; */
+}
+
+.display-mcq-dd div button {
+  margin-top: 13px;
+}
+
+.checkbox-qa,
+.checkbox-mcq-dd {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+
+.input-qa,
+.input-mcq-dd {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+  border-color: black;
+  border-radius: 0;
+
+  outline: none;
+}
+
+.option-cont{
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.options-container {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.option_details {
+  color: black;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.option-row {
+  color: black;
+  margin-bottom: 10px;
+}
+
+#jkh {
+  color: black;
+  /* margin-left: 5px; */
+  margin-top: 5px;
+  /* float: right; */
+}
+
+.ij {
+  align-items: center;
+  color: rgb(11, 11, 212);
+}
+
+.done-button {
+  color: black;
+  margin-top: 5px;
+}
+
+.container-0 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 0px;
+  height: 100%;
+  margin-bottom:18px;
+  margin-top: 5px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  /* flex-basis: 100%; */
+}
+
+/* .container-0 button{
+  flex-basis: 5%;
+} */
+
+.container-1 {
+  /* flex-wrap: wrap; */
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-1-que {
+  flex-basis: 15%;
+  background-color: none;
+  font-size: smaller;
+}
+
+.container-2 {
+  display: flex;
+  /* height: 100%; */
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.container-2 input {
+  margin-left: 2%;
+  margin-top: 5px;
+  /* flex-basis: 2%; */
+}
+
+.container-3 {
+  flex-basis: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+/* .container-3 .bt1,.bt2{
+  flex-basis: 40%;
+} */
+/* .container-3 .bt2{
+  margin-left: 50px;
+} */
+
+.container-3 .bt1 button,
+.bt2 button {
+  /* width: 40%; */
+  color: black;
+}
+
+.ikl {
+  font-size: 15px;
+  color: black;
+}
+
+.kml {
+  font-size: 15px;
+  color: black;
+}
+
+.svl {
+  font-size: 15px;
+  color: black;
+}
+
+.add-que {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.add-que button {
+  color: black;
+}
+
+/* slider button */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  transform: scale(0.7) translateY(-35%);
+  margin-left:1%;
+  margin-right: 2%;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider-input:checked + .slider {
+  background-color: #4E4FEB;
+}
+
+.slider-input:focus + .slider {
+  box-shadow: 0 0 1px #4E4FEB;
+}
+
+.slider-input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.progress-status{
+  margin-top:5%;
+  font-style: italic;
+  font-weight: 600;
+  color:#555;
+}
+.progress-bar {
+  margin:2% 0;
+  width:92.5%;
+  height:15px;
+  background:
+   linear-gradient(#4E4FEB 0 0) 0/0% no-repeat
+   #ddd;
+  animation:p1 2s linear;
+}
+.request-payout{
+  background-color: #4E4FEB;
+  margin-top: 1%;
+  color:white;
+  font-weight: 700;
+  cursor: pointer;
+  padding:10px 20px;
+  display: inline-block;
+  width:auto;
+  border-radius: 5px;
+}

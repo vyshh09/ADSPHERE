@@ -1,0 +1,173 @@
+.form-builder-main{
+    padding : 0;
+    background: rgba(249, 252, 160, 0.3);
+    min-height: 100vh;
+    padding-bottom: 100px;
+}
+
+.heads,.form-builder-container {
+    position: relative;
+    max-width: 700px; /*Adjust width for better layout */
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    background-color:rgb(250, 250, 250); /* Google Form background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 1%;
+    top: 30px;
+    /* margin-top: 30px; Add margin for better separation */
+}
+
+.heads { 
+    margin-bottom: 17px; 
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 2%;
+}
+
+.instructions {
+    color:red;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.headings {
+    color: black; /* Google Form heading color */
+    font-size: 33px;
+    margin-bottom: 4px;
+    margin-top:2%;
+}
+
+.question-label {
+    color: black; /* Google Form label color */
+    font-size: 18px;
+    margin-bottom: 6px; /* Add margin for better separation */
+    font-weight: 500; /* Bold font weight for labels */
+}
+
+.checkbox-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-option {
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 6px; /* Add margin for better separation */
+    align-items: center;
+}
+
+/* Style for checkbox container */
+.checkbox-container {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Hide the default checkbox */
+.checkbox-input {
+    display: none;
+}
+
+/* Custom checkbox design */
+.checkbox-custom {
+    display: inline-block;
+    width: 16px; /* Adjust width as needed */
+    height: 16px; /* Adjust height as needed */
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* Additional styles for checked state */
+.checkbox-input:checked + .checkbox-custom::after {
+    content: "";
+    display: block;
+    width: 10px; /* Adjust size of inner circle */
+    height: 10px; /* Adjust size of inner circle */
+    background-color: rgb(106, 106, 190);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.mandatory-star {
+    color: red; /* Change to the desired color */
+}
+
+
+.checkbox-option input {
+    margin-right: 10px;
+}
+
+.checkbox-option label,
+.dropdown option {
+    color: black; /* Google Form text color */
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.text-input,
+.dropdown {
+    width: 90%;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 12px; 
+    color: black;
+}
+
+.text-input::placeholder{
+    color: rgb(138, 133, 133);
+    font-size: 15px;
+}
+
+.dropdown{
+    color: #202124;
+    border:0;
+    outline:none;
+}
+
+.text-input{
+    border: none;
+    border-bottom: 1px solid;
+    border-color: black;
+    border-radius: 0;
+    outline: none;
+}
+
+.text-input:focus {
+    outline: none;
+    /* border-color: rgb(24, 73, 220); Google Form input border color on focus */
+    border-bottom: 2px solid #206ed4;
+    padding-bottom: 9px;
+}
+
+.dropdown:focus {
+    outline: none;
+}
+
+.submit-button {
+    color:black;
+    font-size: 16px;
+    padding:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:8%;
+}
+
+.submit-message {
+    color: black; /* Google Form heading color */
+    font-size: 33px;
+    align-items: center;
+}
+.consent-div{
+    font-size: 90%;
+    padding-left: 1%;
+    color:#444;
+}
